@@ -90,7 +90,7 @@ See the settings.h file to adjust window size and background options.
 <img src="README_img/background_0.png" alt="bg0" width="300"/>
 
 ### Background 1
-<img src="README_img/background_1.png" alt="bg1" width="300"/>
+<img src="README_img/background_1.png" alt="bg1" width="400"/>
 
 ### Background 2
-<img src="README_img/background_2.png" alt="bg2" width="300"/>
+<img src="README_img/background_2.png" alt="bg2" width="400"/>
