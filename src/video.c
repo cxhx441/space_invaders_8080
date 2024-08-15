@@ -46,16 +46,12 @@ int initialize_video()
                                         0x000000FF);
     if (!game_surface) { SDL_Log( "Unable to create game surface. %s\n", SDL_GetError()); return 1; }
 
-    game_texture = SDL_CreateTextureFromSurface(renderer, game_surface);
-    if (!game_texture) { SDL_Log( "Unable to create game texture. %s\n", SDL_GetError()); return 1; }
-
-
     if (SETTINGS_BACKGROUND)
     {
         // setup background textures
         SDL_Surface *cab_surface = IMG_Load("../assets/cabinet1.png");
         if (SETTINGS_BACKGROUND == 2)
-             cab_surface = IMG_Load("../assets/cabinet2.png");
+            cab_surface = IMG_Load("../assets/cabinet2.png");
 
         if (!cab_surface) { SDL_Log( "Unable to create cabinet surface. %s\n", SDL_GetError()); return 1; }
 
@@ -115,6 +111,7 @@ void draw_screen(State *state)
         SDL_RenderCopy(renderer, game_texture, NULL, &rect);
         SDL_RenderPresent(renderer);
     }
+    SDL_DestroyTexture(game_texture);
 }
 
 void spinvaders_vram_matrix_to_png(State *state, int lbl_prefix)
