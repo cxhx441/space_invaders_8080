@@ -86,9 +86,11 @@ Shoot the aliens, avoid getting shot, don’t let the aliens reach the bottom of
 See the settings.h file to adjust window size and background options. 
 
 ## Screenshots
-### Backround 0
-<img src="README_img/background_0.png" alt="bg0" width="300"/>;
-### Backround 1
-<img src="README_img/background_1.png" alt="bg1" width="300"/>;
-### Backround 2
-<img src="README_img/background_2.png" alt="bg2" width="300"/>;
+### Background 0
+<img src="README_img/background_0.png" alt="bg0" width="300"/>
+
+### Background 1
+<img src="README_img/background_1.png" alt="bg1" width="300"/>
+
+### Background 2
+<img src="README_img/background_2.png" alt="bg2" width="300"/>
