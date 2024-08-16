@@ -1,8 +1,11 @@
-# space_invaders_8080
+# Intel 8080 Emulator: Space Invaders
+This is an Intel 8080 Emulator specifically designed to run the original Space Invaders 8080 ROM. It is written in C and utilizes the SDL library for video, sound, and controls. It was the Capstone Project for my Bachelor's degree from Oregon Statue University (original submission 6/5/2024). The original repo, along with all the contributions from my team-members can be found here: [raimichick/space_invaders](https://github.com/raimichick/space_invaders)
 
-CS467 final project (Final project submission 6/5/2024)
+[Project Report](https://eecs.engineering.oregonstate.edu/project-showcase/downloaders/artifacts?id=zyU17PCHwZvGnMiO)
 
-NOTE: This started as a copy of [raimichick/space_invaders](https://github.com/raimichick/space_invaders)
+[Project Poster](https://eecs.engineering.oregonstate.edu/project-showcase/downloaders/artifacts?id=tjeCnEOTvuvemQkN)
+
+[Project Presentation](https://www.youtube.com/watch?v=Q-t2x6y43j4)
 
 ## How to Run:
 
@@ -10,14 +13,14 @@ NOTE: This started as a copy of [raimichick/space_invaders](https://github.com/r
 
 Navigate to the releases page and download the .zip archive for your platform and extract to a folder. To be able to run
 space invaders with this program, a ROM of the original game is required. This is not provided by the project and must
-be obtained through other sources. The ROM can be found online as invaders.e, .f, .g, and .h. These should be cat'd 
-together, labeled "invaders_combined" and put in the "include" directory. 
+be obtained through other sources. The ROM can be found online as invaders.e, .f, .g, and .h. These should be cat'd
+together, labeled "invaders_combined" and put in the "include" directory.
 
 ### Windows
 
 From Release: Navigate to the executable directory and run space_invaders_8080.exe
 
-Build from source: 
+Build from source:
 1. Clone or download a zip of the Github repo.
 2. Ensure the ‘main’ branch is checked out.
 3. Copy the game ROM into the ./include folder. Label it “invaders_combined”.
@@ -83,7 +86,7 @@ Shoot the aliens, avoid getting shot, don’t let the aliens reach the bottom of
 
 ## Settings
 
-See the settings.h file to adjust window size and background options. 
+See the settings.h file to adjust window size and background options.
 
 ## Screenshots
 ### Background 0
